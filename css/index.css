@@ -1,0 +1,358 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+
+}
+
+header {
+     display: flex;
+      justify-content: space-between;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+       background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+       align-items: center;
+      
+       z-index: 10;
+      
+      
+
+}
+.logo_dpro img{
+    width: 120px;
+    height: 48px;
+}
+
+nav{
+    display: flex;
+   height: inherit;
+   align-items: center;
+      color: white;
+}
+nav ul{
+       display: block;
+      display: flex;
+      height: inherit;
+       
+     
+      
+
+
+    
+}
+
+nav ul li{
+
+list-style: none;
+padding: 20px;
+color: white;
+height:inherit ;
+cursor:pointer;
+
+}
+nav ul li:hover{
+   background-color: white;
+   color: black;
+   
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    height: inherit;
+    color: white;
+   
+}
+
+
+footer {
+    display: block;
+    flex-direction: column;
+    position:absolute;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   position: relative;
+    bottom: 0;
+    margin-top: 20px;
+
+    height: 75px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.image_footer{
+    display: block;
+    width: 80px;
+
+}
+footer ul {
+    display: block;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+     font-size: 15px;
+     justify-content: center;
+}
+.bloc1{
+
+    background: url('image/sample_key.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relaive;
+}
+.bloc1_fils{
+     position: absolute;
+     top:110px;
+     left: 90px;
+     color: black;
+     font-size: 30px;
+}
+
+footer ul li a {
+    display: block;
+    justify-content: center;
+      padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+     
+}
+.text_end{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.bloc2{
+
+    color: black;
+    height: 596px;
+    width: 100%;
+   
+    height: 418px;
+    margin-bottom: 30px;
+
+}
+.bloc2_fils1{
+
+     height: 72px;
+      text-align: center;
+      font-size: 1.5em;
+     margin-bottom: 40px;
+}
+.container2 {
+
+    display: flex;
+    
+    justify-content: space-around;
+ 
+}
+
+.bloc2_fils3{
+
+    justify-content: start;
+}
+
+.bloc2_fils3  img {
+height:300px;
+width:300px;
+}
+
+.menu_recommanded{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-left: 10%;
+   padding-right:10% ;
+   padding-top: 50px;
+   padding-bottom:30px ;
+
+}
+.list_menu{
+
+    padding-bottom: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu_item{
+      width: 49%;
+      list-style: none;
+      text-decoration: none;
+      display: flex;
+      margin-bottom: 20px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+.menu_item_image{
+height: 300px;
+width: 55%;
+object-fit: cover;
+
+}
+.menu_item_content{
+      display: flex;
+      flex-direction: column;
+      background: white;
+      justify-content: space-between;
+      width: 45%;
+      padding: 10%;
+
+}
+
+
+.menu_title h2{
+ 
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+   display: block;
+   color: #42210b;
+   font-family: 'Noto Serif JP', serif;
+   border-bottom: solid #42210b 1px;
+}
+
+.menu_title h1 {
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+   
+   color: #42210b;
+   font-family: 'Noto Serif JP', serif;
+  
+     text-align: center;
+}
+.menu_item_price{
+     color: #42210b;
+     font-size: 18px;
+     text-align: right;
+}
+ .titre .title2 {
+   font-size: 1.5rem;
+   color: #42210b;
+   font-family: 'Noto Serif JP', serif; 
+   border-bottom: solid #42210b 1px;
+   text-align: center;
+    margin: auto;
+    position: relative;
+   margin-bottom: 40px;
+   width: max-content;
+}
+.article{
+
+ background: url("image/sample_menu_bg.jpg") bottom;
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-attachment: fixed;
+ padding-bottom: 20px;
+
+}
+.tas_of_cofee{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+    width: 640px;
+    height: 400px;
+   
+   
+   
+    margin-top: 60px;
+    background-color: white;
+   padding-bottom: 20px;
+   padding-left:30px;
+   padding-right: 60px;
+}
+.respect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+.menu_de_cafe{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+height: inherit;
+    
+}
+
+
+.item_de_cafe{
+
+    list-style: none;
+    display: flex;
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.4); */
+    width: 49%;
+   padding: 10px;
+   
+    align-items: center;
+}
+
+.contenu_café{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 10px;
+width: 80%;
+
+}
+.img_cafe{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 20%;
+    border-radius: 50%;
+    border-style: none;
+
+
+
+}
+.section_du_map {
+    display: block;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+    width: 80%;
+     height: 80vh;
+    
+     margin: auto;
+    margin-top: 40px;
+}
+
+.frame_area{
+
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+     
+}
+#map{
+    width: 100%;
+    height: 100%;
+
+}
+.section_titre{
+
+    text-align: center;
+    margin-bottom: 50px;
+    ont-family: 'Noto Serif JP', serif;
+}
+
